@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>{{title}}</title>
+        <link rel="icon" href="/Images/lit.jpg">
+        <link rel="stylesheet" href="/CSS/style.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    </head>
+
+    <body>
+        <div class="main-content">
+            {{>header}}
+        
+            <p>The landing page for the website</p>
+
+            <form>
+                <input class="searchAddress" placeholder="Location...">
+                <button>Search</button>
+            </form>
+
+            <div id="displayData">
+
+            </div>
+        </div>
+        
+         {{>footer}}
+
+         <script src="js/app.js"></script>
+    </body>
+
+
+</html>
